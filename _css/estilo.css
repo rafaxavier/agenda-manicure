@@ -1,0 +1,171 @@
+
+:root {
+    --input-padding-x: .75rem;
+    --input-padding-y: .75rem;
+  }
+  
+  html,body {
+    height: 100%;
+    
+  }
+
+  /* aqui começa o estilo do formulario de login  */
+#login-layout{
+   height:100% ;
+   border: 1px solid rgba(255, 0, 0, 0);
+   background: black;
+}
+#login-layout h1{
+    color: aliceblue; 
+ 
+}
+#login-layout p{
+    color: aliceblue; 
+    margin-top: 30px; 
+    text-align: center;
+}
+
+.btn-new{
+    background: #777 ;
+} 
+
+  .form-login {
+    width: 93%;
+    max-width: 420px;
+    min-width: 340px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+    margin-top: auto;
+    border: 2px solid black;
+    background: rgba(233, 148, 220, 0.842);
+    
+  }
+  
+  .label-login {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .label-login > input,
+  .label-login > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .label-login > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0; /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    cursor: text; /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .label-login input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .label-login input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .label-login input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .label-login input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .label-login input::placeholder {
+    color: transparent;
+  }
+  
+  .label-login input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .label-login input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+
+  .custom-checkbox{
+    color:aliceblue; 
+  }
+
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  @supports (-ms-ime-align: auto) {
+    .label-login > label {
+      display: none;
+    }
+    .label-login input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .label-login > label {
+      display: none;
+    }
+    .label-login input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+
+/*###############################################*/
+/*menu com abas */
+ul#nav-abas{
+	width: 720px;
+}
+
+ul#nav-abas li{
+float: left;/*deixa os links inline*/
+list-style-type: none;/*tira marcador da lista*/
+line-height: 3em;
+background: url(../_imgs/aba-direita.png) right top no-repeat;
+}
+
+ul#nav-abas a{
+	text-decoration-line: none;/*tira uderline do link*/
+	display: block;
+	background: url(../_imgs/aba-esquerda.png) left top no-repeat ;
+	padding: 0 2em;
+	color: black;
+
+}
+
+ul#nav-abas a:hover{
+	color: white;
+}
+
+ul#nav-abas li.ativado{
+	background:url(../_imgs/aba-direita-atual.png) right top no-repeat;
+
+}
+ul#nav-abas  li.ativado a{
+	background:url(../_imgs/aba-esquerda-atual.png) left top no-repeat;
+
+}
+
+/* tela perfill */
+.box1{
+  background: black;
+  color: whitesmoke;
+}
+
+
