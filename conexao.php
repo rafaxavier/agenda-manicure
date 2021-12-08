@@ -2,7 +2,7 @@
 
 $host="localhost"; //host tem q vir primeiro , caso contrario conexão falha
 $user="root";
-$pass="rxn270109"; //essa senha talvez esteja diferente no servidor
+$pass=" "; //essa senha talvez esteja diferente no servidor
 $db="agenda";
 
 //Cria conexao
