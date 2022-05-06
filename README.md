@@ -1,1 +1,1 @@
-Sistema de agendamento de serviço para salçao de manicure e pedicure
+# Sistema de agendamento de serviço para salão de manicure e pedicure
